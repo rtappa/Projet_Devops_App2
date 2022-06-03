@@ -6,10 +6,10 @@
   tasks:
   - name: Check connexion
     ping:
-  #- name: Install Docker...
-  #  shell: |
-  #    curl -fsSL https://get.docker.com -o get-docker.sh
-  #   sudo sh get-docker.sh
+  - name: Install Docker...
+    shell: |
+      curl -fsSL https://get.docker.com -o get-docker.sh
+     sudo sh get-docker.sh
   - name: Get the git file from GitHub
     git:
       repo: https://github.com/rtappa/Projet_Devops_App2.git
