@@ -1,6 +1,6 @@
 ---
 - name: Projet Load balancer
-  hosts: all
+  hosts: node5
   remote_user: vagrant
   become: true
   tasks:
